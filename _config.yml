@@ -1,5 +1,5 @@
 # Site settings
-title: 'Julia 程序设计语言'
+title: 'Julia 数据科学语言'
 
 baseurl: # the subpath of your site, e.g. /blog
 url: http://www.juliabook.ml # the base hostname & protocol for your site
