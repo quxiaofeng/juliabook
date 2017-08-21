@@ -1,0 +1,36 @@
+# Site settings
+title: 'Julia 程序设计语言'
+
+baseurl: # the subpath of your site, e.g. /blog
+url: http://www.juliabook.ml # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink:           :title/
+
+pagination:          true
+paginate:            8
+paginate_path:       page/:num/
+
+sass:
+    sass_dir: _sass
+    style:    compressed
+
+defaults:
+  -
+      scope:
+        path: '_posts'
+        type: 'posts'
+      values:
+        reading_time: true
+        # Meta
+        show_tags: true
+        show_categories: true
+        # Social
+        share_buttons: true
+        disqus: true
